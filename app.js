@@ -2,7 +2,6 @@ function uploadFile() {
     // Récupére le fichier uploadé
     let snapchatZip = document.getElementById('myFile').files[0]
 
-
      // Envoyer le fichier à l'API sur la route POST /upload-snapchat-file
       requestApiWithFile(snapchatZip)
 }
