@@ -13,7 +13,7 @@ function requestApiWithFile(file) {
    var req = new XMLHttpRequest()
    req.timeout = 120000
 
-   req.open("POST", 'http://localhost:3000/upload-snapchat-file', true)
+   req.open("POST", 'https://snapchat-memories-download-api.herokuapp.com/upload-snapchat-file', true)
    req.overrideMimeType('application/octet-stream')
    var formData = new FormData()
    formData.append("snapchatZip", file)
