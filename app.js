@@ -1,6 +1,3 @@
-import { saveAs } from 'file-saver'
-//const saveAs = require('file-saver')
-
 function uploadFile() {
     // Récupére le fichier uploadé
     let snapchatZip = document.getElementById('myFile').files[0]
@@ -22,30 +19,21 @@ function requestApiWithFile(file) {
    formData.append("snapchatZip", file)
    req.send(formData)
 
-   req.onload = function() {
-      if(req.status === 200) {
-         console.log('in response 200')
-        var filename = 'monFoutuZip.zip'
-
-        const blob = req.response.blob()
-        saveAs(blob, 'mesPHotos.zip')
-  
-        // The actual download
-        /*
-        var blob = new Blob([req.response], { type: 'octet/stream' });
-        var link = document.createElement('a');
-        link.href = window.URL.createObjectURL(blob);
-        link.download = filename;
-  
-        document.body.appendChild(link);
-  
-        link.click()
-  
-        document.body.removeChild(link);
+   req.onreadystatechange = function() {
+      if (req.readyState == 4 && req.status == 200) {
+         var binaryData = [];
+         binaryData.push(req.response);
+         const downloadUrl = window.URL.createObjectURL(new Blob(binaryData, {type: "application/zip"}))
+          const link = document.createElement('a');
+          
+          link.setAttribute('href', downloadUrl);
+          link.setAttribute('download', `filename.zip`);
+          link.style.display = 'none';
+          document.body.appendChild(link);
+          link.click();
+          window.URL.revokeObjectURL(link.href);
+          document.body.removeChild(link);
       }
-  
-      */
-      // s
-      }
-   }
+  }
+  req.responseType = "arraybuffer"
 }
