@@ -1,0 +1,266 @@
+.mediaViewInfo {
+    --web-view-name: Web 1920 – 1;
+    --web-view-id: Web_1920__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Web_1920__1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Web_1920__1 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Web 1920 – 1;
+    --web-view-id: Web_1920__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Rectangle_1 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 698px;
+    height: 75px;
+    left: 612px;
+    top: 323px;
+}
+#Rectangle_2 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 698px;
+    height: 75px;
+    left: 612px;
+    top: 602px;
+}
+#Rectangle_3 {
+    opacity: 0.995;
+    fill: rgba(244,222,105,1);
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 75px;
+    left: 802px;
+    top: 880px;
+}
+#Welcome_at_your_snapchat_memor {
+    left: 408px;
+    top: 50px;
+    position: absolute;
+    overflow: visible;
+    width: 1106px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(229,208,95,1);
+}
+#Please_upload_your_zip_file_pr {
+    left: 611px;
+    top: 270px;
+    position: absolute;
+    overflow: visible;
+    width: 699px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Choose_the_folder_where_you_wo {
+    left: 543px;
+    top: 549px;
+    position: absolute;
+    overflow: visible;
+    width: 835px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Click_to_launch_and_download_a {
+    left: 627px;
+    top: 837px;
+    position: absolute;
+    overflow: visible;
+    width: 668px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Upload_your_file {
+    opacity: 0.297;
+    left: 850px;
+    top: 345px;
+    position: absolute;
+    overflow: visible;
+    width: 223px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Browse {
+    opacity: 0.297;
+    left: 905px;
+    top: 624px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Get_my_photos {
+    left: 834px;
+    top: 896px;
+    position: absolute;
+    overflow: visible;
+    width: 253px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.5px;
+}
+#Ellipse_1 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 78px;
+    height: 78px;
+    left: 922px;
+    top: 170px;
+}
+#Ellipse_2 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_2 {
+    position: absolute;
+    overflow: visible;
+    width: 78px;
+    height: 78px;
+    left: 921px;
+    top: 463px;
+}
+#Ellipse_3 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_3 {
+    position: absolute;
+    overflow: visible;
+    width: 78px;
+    height: 78px;
+    left: 921px;
+    top: 742px;
+}
+#n_ {
+    left: 952px;
+    top: 185px;
+    position: absolute;
+    overflow: visible;
+    width: 19px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: rgba(229,208,95,1);
+}
+#n__u {
+    left: 944px;
+    top: 478px;
+    position: absolute;
+    overflow: visible;
+    width: 32px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: rgba(229,208,95,1);
+}
+#n__v {
+    left: 945px;
+    top: 757px;
+    position: absolute;
+    overflow: visible;
+    width: 32px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nexa Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: rgba(229,208,95,1);
+}
