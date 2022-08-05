@@ -1,3 +1,5 @@
+
+
 function uploadFile() {
     // Récupére le fichier uploadé
     let snapchatZip = document.getElementById('myFile').files[0]
@@ -36,3 +38,4 @@ function requestApiWithFile(file) {
   }
   req.responseType = "arraybuffer"
 }
+
