@@ -43,13 +43,13 @@ function requestApiWithFile(file) {
          const downloadUrl = window.URL.createObjectURL(new Blob(binaryData, {type: "application/zip"}))
           const link = document.createElement('a');
           
-          link.setAttribute('href', downloadUrl);
-          link.setAttribute('download', `filename.zip`);
-          link.style.display = 'none';
-          document.body.appendChild(link);
-          link.click();
-          window.URL.revokeObjectURL(link.href);
-          document.body.removeChild(link);
+          link.setAttribute('href', downloadUrl)
+          link.setAttribute('download', `memories.zip`)
+          link.style.display = 'none'
+          document.body.appendChild(link)
+          link.click()
+          window.URL.revokeObjectURL(link.href)
+          document.body.removeChild(link)
       }
   }
   req.responseType = "arraybuffer"
