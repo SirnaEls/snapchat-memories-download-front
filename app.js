@@ -1,7 +1,10 @@
 /**
  * Front part
  */
-document.querySelector(".loader").removeAttribute('hidden')
+
+document.querySelector("#myFile").addEventListener('change', function {
+    document.querySelector(".loader").removeAttribute('hidden')
+})
 
 
 /**
