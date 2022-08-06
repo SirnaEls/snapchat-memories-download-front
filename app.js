@@ -3,8 +3,11 @@
  */
 
 document.querySelector("#Upload_your_file").addEventListener('submit', function() {
-    document.querySelector(".loader").removeAttribute('hidden')
+    document.querySelector(".contain").removeAttribute('hidden')
+    document.querySelector("#submit-button").setAttribute("disabled", true)
 })
+
+
 
 const chooseFile = document.getElementById("myFile")
 const submitButton = document.getElementById("submit-button")
