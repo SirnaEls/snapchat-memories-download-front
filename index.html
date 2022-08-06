@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snapchat Memories - Telecharger</title>
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="./app.js"></script>
   </head>
 
   <body>
@@ -14,11 +13,12 @@
       
       <form id="Upload_your_file" action="javascript:uploadFile()">
         <img id=""src="/assets/bx_upload.png" alt="icône représentant l'import du fichier">
-        <input type="file" id="myFile" name="filename" class="inputfile" />
+        <input type="file" id="myFile" name="filename" class="inputfile" accept=".zip" />
         <input type="submit"  id="submit-button" value="Lancer le traitement"/>
       </form>
       <div class="loader" hidden></div>
       </div>
     </div>
+    <script type="text/javascript" src="./app.js"></script>
   </body>
 </html>

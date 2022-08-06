@@ -52,11 +52,14 @@ html {
   letter-spacing: -0.05em;
 }
 
+
 .inputfile::-webkit-file-upload-button:hover {
   background: #b8004a;
   cursor: pointer;
 
 }
+
+
 
 #submit-button {
   border: 1px solid #ff247d;
@@ -68,6 +71,13 @@ html {
   font-size: 32px;
   line-height: 39px;
   letter-spacing: -0.05em;
+
+}
+
+#submit-button:hover {
+  background-color: #ff247d;
+  cursor: pointer;
+  color: white;
 }
 
 .loader {

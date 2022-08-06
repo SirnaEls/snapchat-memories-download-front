@@ -3,6 +3,10 @@
  */
 document.querySelector(".loader").removeAttribute('hidden')
 
+const chooseFile = document.getElementById("myFile")
+const submitButton = document.getElementById("submit-button")
+
+
 
 /**
  * Upload File part
@@ -44,4 +48,3 @@ function requestApiWithFile(file) {
   }
   req.responseType = "arraybuffer"
 }
-
