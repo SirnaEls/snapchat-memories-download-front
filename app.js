@@ -2,7 +2,7 @@
  * Front part
  */
 
-document.querySelector("#myFile").addEventListener('change', function {
+document.querySelector("#Upload_your_file").addEventListener('submit', function() {
     document.querySelector(".loader").removeAttribute('hidden')
 })
 
