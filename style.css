@@ -89,6 +89,10 @@ html {
   gap: 14px;
 }
 
+.brightness {
+  filter: brightness(0.5);
+}
+
 .inputfile {
     text-align-last: center;
 }
