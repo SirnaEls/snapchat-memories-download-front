@@ -16,13 +16,15 @@
   </head>
 
   <body>
-    <h1 class="title">👻 Téléchargement de vos memories Snapchat</h1>
+    <h1 class="title">👻 Télécharger vos memories Snapchat</h1>
     <form id="upload_your_file" action="javascript:uploadFile()">
 
       <div class="step_container">
         <h2 class="step_number step_font">1</h2>
         <div class="step_description">
-          <div class="step_description_text font_inter">Se connecter sur <a href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome">https://accounts.snapchat.com/accounts/login</a></div>
+          <div class="step_description_text font_inter">Se connecter sur 
+            <a href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome" title="Page de connexion à Snapchat">https://accounts.snapchat.com/accounts/login</a>
+          </div>
         </div>
       </div>
 
@@ -32,7 +34,7 @@
           <div class="step_description_text font_inter">
             Click sur:
           </div>
-          <img class="brightness" src="./assets/snapchat_mes_donnees.jpeg" \>
+          <img class="brightness" src="./assets/snapchat_mes_donnees.jpeg" alt="Clicker sur le boutton: mes données" \>
         </div>
       </div>
 
@@ -42,7 +44,7 @@
           <div class="step_description_text font_inter">
             Aller en bas de page, confirmer son e-mail et envoyer la demande:
           </div>
-          <img class="brightness" src="./assets/snapchat_envoyer_demande.jpeg" \>
+          <img class="brightness" src="./assets/snapchat_envoyer_demande.jpeg" alt="Confirmer son e-mail et envoyer la demande de récupération des données" \>
         </div>
       </div>
 
@@ -52,7 +54,7 @@
           <div class="step_description_text font_inter">
             Après quelques minutes, télécharger le fichier reçu par mail (de Snapchat): 
           </div>
-          <img class="brightness" src="./assets/snapchat_email_telechargement.jpeg" \>
+          <img class="brightness" src="./assets/snapchat_email_telechargement.jpeg" alt="Cliquer sur le lien fourni par e-mail" \>
         </div>
       </div>
 
@@ -77,32 +79,12 @@
         <div class="step_container">
           <h2 class="step_number step_font">6</h2>
           <div class="step_description">
-            <input type="submit" id="submit-button" class="unclickable_button" value="Télécharger mes memories" disabled/>
+            <input type="submit" id="submit-button" class="unclickable_button" value="Télécharger vos memories" disabled/>
           </div>
         </div>
 
       </div>
       </form>
-
-
-      <!-- 
-      <form id="import_file_container" action="javascript:uploadFile()">
-        <h2 class="step_number step_font">5</h2>
-        <img
-          id=""
-          src="./assets/bx_upload.png"
-          alt="icône représentant l'import du fichier"
-        />
-        <input
-          type="file"
-          id="myFile"
-          name="filename"
-          class="inputfile"
-          accept=".zip"
-        />
-        <input type="submit" id="submit-button" value="Lancer le traitement" />
-      </form>
-      -->
       <div class="loading_container" hidden>
 
         <div class="follow-the-leader" >
@@ -116,10 +98,10 @@
       </div>
       
     </div>
-    
+
     <footer>
       <p>© Snapchat Memories Downloader</p>
-      <p><a href="mentions_legales.html">Mentions légales</a></p>
+      <p><a href="mentions_legales.html" title="Mentions légales de Snapchat-memories.fr">Mentions légales</a></p>
     </footer>
 
 
