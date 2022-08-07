@@ -2,7 +2,7 @@
  * Front part
  */
 
-document.querySelector("#Upload_your_file").addEventListener('submit', function() {
+document.querySelector("#upload_your_file").addEventListener('submit', function() {
     document.querySelector(".contain").removeAttribute('hidden')
     document.querySelector("#submit-button").setAttribute("disabled", true)
 })

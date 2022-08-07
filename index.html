@@ -16,12 +16,81 @@
   </head>
 
   <body>
-    <h1>Téléchargement de vos memories Snapchat</h1>
-    <div id="container">
-      <form id="Upload_your_file" action="javascript:uploadFile()">
+    <h1 class="title">👻 Téléchargement de vos memories Snapchat</h1>
+    <form id="upload_your_file" action="javascript:uploadFile()">
+
+      <div class="step_container">
+        <h2 class="step_number step_font">1</h2>
+        <div class="step_description">
+          <div class="step_description_text font_inter">Se connecter sur <a href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome">https://accounts.snapchat.com/accounts/login</a></div>
+        </div>
+      </div>
+
+      <div class="step_container">
+        <h2 class="step_number step_font">2</h2>
+        <div class="step_description">
+          <div class="step_description_text font_inter">
+            Click sur:
+          </div>
+          <img src="./assets/snapchat_mes_donnees.jpeg" \>
+        </div>
+      </div>
+
+      <div class="step_container">
+        <h2 class="step_number step_font">3</h2>
+        <div class="step_description">
+          <div class="step_description_text font_inter">
+            Scroller, confirmer son e-mail et envoyer la demande:
+          </div>
+          <img src="./assets/snapchat_envoyer_demande.jpeg" \>
+        </div>
+      </div>
+
+      <div class="step_container">
+        <h2 class="step_number step_font">4</h2>
+        <div class="step_description">
+          <div class="step_description_text font_inter">
+            Après quelques minutes, télécharger le fichier reçu par mail par Snapchat: 
+          </div>
+          <img src="./assets/snapchat_email_telechargement.jpeg" \>
+        </div>
+      </div>
+
+      <div class="step_container">
+        <h2 class="step_number step_font">5</h2>
+
+        <div class="step_description">
+          <div class="step_description_text font_inter">
+            Importer le fichier téléchargé ci-dessous:
+          </div>
+        
+          <input
+            type="file"
+            id="myFile"
+            name="filename"
+            class="inputfile"
+            accept=".zip"
+          />
+        </div>
+      </div>
+        
+        <div class="step_container">
+          <h2 class="step_number step_font">6</h2>
+          <div class="step_description">
+            <input type="submit" id="submit-button" value="Télécharger mes memories" />
+          </div>
+        </div>
+
+      </div>
+      </form>
+
+
+      <!-- 
+      <form id="import_file_container" action="javascript:uploadFile()">
+        <h2 class="step_number step_font">5</h2>
         <img
           id=""
-          src="/assets/bx_upload.png"
+          src="./assets/bx_upload.png"
           alt="icône représentant l'import du fichier"
         />
         <input
@@ -33,6 +102,7 @@
         />
         <input type="submit" id="submit-button" value="Lancer le traitement" />
       </form>
+      -->
       <div class="contain" hidden>
 
         <div class="follow-the-leader" >
