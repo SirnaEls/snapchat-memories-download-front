@@ -93,6 +93,16 @@ html {
     text-align-last: center;
 }
 
+.clickable_button {
+  background: #ff247d;
+  color: white;
+}
+
+.unclickable_button {
+  background: none;
+  color: none;
+}
+
 
 .inputfile::-webkit-file-upload-button {
   display: flex;
