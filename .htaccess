@@ -1,0 +1,3 @@
+RewriteEngine on
+Rewritecond %{HTTP_HOST} ^snapchat-memories.fr.$
+Rewriterule ^(.*) http://www.snapchat-memories.fr/$1 [QSA,L,R=301]
