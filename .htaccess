@@ -1,3 +1,5 @@
 RewriteEngine on
 Rewritecond %{HTTP_HOST} ^snapchat-memories.fr.$
-Rewriterule ^(.*) http://www.snapchat-memories.fr/$1 [QSA,L,R=301]
+Rewriterule ^(.*) https://www.snapchat-memories.fr/$1 [QSA,L,R=301]
+
+ErrorDocument 404 https://snapchat-memories.fr/404.html
