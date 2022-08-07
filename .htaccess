@@ -2,3 +2,4 @@ RewriteEngine on
 ErrorDocument 404 https://snapchat-memories.fr/404.html
 RewriteCond %{HTTP_HOST} ^snapchat\-memories\.fr$
 RewriteRule ^/?$ "https\:\/\/www\.snapchat\-memories\.fr\/" [R=301,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
