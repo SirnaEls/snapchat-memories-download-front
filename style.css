@@ -68,9 +68,6 @@ body {
   margin: 0 auto;
 }
 
-#import_file_container .step_number {
-  
-}
 
 .step_number {
   margin-left: 15px;
@@ -226,8 +223,8 @@ body {
 
 footer {
   padding: 10px 20px;
-  background: rgb(221, 219, 219);
-  color: rgb(47, 42, 42);
+  background: rgb(239, 239, 239);
+  color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 800px) {
@@ -278,4 +275,17 @@ footer {
     padding: 20px;
     font-size: 20px;
   } 
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.mentions-legales{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 12px;
 }
