@@ -69,6 +69,7 @@ html {
   color: #ff247d;
 }
 
+
 .step_container {
   padding: 15px 10px 15px 0px;
   box-sizing: border-box;
@@ -217,5 +218,44 @@ html {
 footer {
   padding: 10px 20px;
   background: rgb(221, 219, 219);
-  color: black;
+  color: rgb(47, 42, 42);
+}
+
+@media screen and (max-width: 800px) {
+  .step_container {
+    width: 100%;
+  }
+
+
+  .font_inter {
+    display: contents;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 39px;
+    max-width: 50%;
+    letter-spacing: -0.05em;
+  }
+
+  .step_description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 110%
+  }
+
+  .inputfile::-webkit-file-upload-button {
+    max-width: 110%;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  #submit-button {
+    max-width: 110%;
+    padding: 20px;
+    font-size: 20px;
+  } 
 }
