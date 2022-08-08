@@ -8,6 +8,15 @@ html {
   }
 }
 
+body {
+  display: grid;
+  margin: 0;
+}
+
+.title_div {
+  background-color: #FFFC00;
+}
+
 .step_font {
   font-family: "Inter";
   font-style: normal;
@@ -226,6 +235,13 @@ footer {
     width: 100%;
   }
 
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
 
   .font_inter {
     display: contents;
@@ -251,6 +267,10 @@ footer {
     max-width: 110%;
     padding: 20px;
     font-size: 20px;
+  }
+  
+  .inputfile {
+    
   }
 
   #submit-button {
