@@ -1,5 +1,5 @@
 /**
- * Front part
+ * FRONT PART
  */
 
 document.querySelector("#upload_your_file").addEventListener('submit', function() {
@@ -7,40 +7,18 @@ document.querySelector("#upload_your_file").addEventListener('submit', function(
     document.querySelector("#submit-button").setAttribute("disabled", true)
 })
 
-
 // On file upload event
 document.querySelector("#myFile").addEventListener('change', function() {
     document.querySelector("#submit-button").disabled = false
     
       document.querySelector("#submit-button").classList.remove("unclickable_button")
       document.querySelector("#submit-button").classList.add("clickable_button")
-
 })
 
-const chooseFile = document.getElementById("myFile")
-const submitButton = document.getElementById("submit-button")
 
-
-
-
-/** on upload file, do:
- 
-
-// Enable submit button
-      document.querySelector("#submit-button").disabled = false
-
-      console.log('hereee')
-    
-      document.querySelector("#submit-button").classList.remove("unclickable_button")
-      document.querySelector("#submit-button").classList.add("clickable_button")
-    
-      
-      document.querySelector("#myFile").classList.add("unclickable_button")
-
- */
 
 /**
- * Upload File part
+ * UPLOAD FILE PART
  */
 function uploadFile() {
     console.log('onsubmit')
@@ -50,7 +28,6 @@ function uploadFile() {
      // Envoyer le fichier à l'API sur la route POST /upload-snapchat-file
       requestApiWithFile(snapchatZip)
 }
-
 
 function requestApiWithFile(file) {
    var req = new XMLHttpRequest()
@@ -63,7 +40,16 @@ function requestApiWithFile(file) {
    req.send(formData)
 
    req.onreadystatechange = function() {
-      if (req.readyState == 4 && req.status == 200) {
+      if (req.readyState == 4) {
+
+        //if API returns error 
+        if (req.status != 200) {
+            alert("Une erreur s'est produite. Si votre fichier ZIP téléchargée sur le site de Snapchat (à l'étape 1) date d'il " +
+                "y a plus de 7 jours, veuillez repartir de l'étape 1. ", req.status)
+            location.reload() // refresh page
+            return
+        }
+
          var binaryData = [];
          binaryData.push(req.response);
          const downloadUrl = window.URL.createObjectURL(new Blob(binaryData, {type: "application/zip"}))
